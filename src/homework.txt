@@ -1,0 +1,12 @@
+HOME WORK:
+1. Convert below code to component: (TodoList.jsx)
+2. TodoList.jsx should:
+ - receive todos (array) as prop
+ - render list of todos
+
+
+<ol>
+    {todos.map((todo) => (
+        <li key={todo.id}>{todo.title}</li>
+    ))}
+</ol>
