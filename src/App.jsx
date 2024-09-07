@@ -10,7 +10,7 @@ const App = () => {
     setLoading(true);
     const response = await axios.get("https://jsonplaceholder.typicode.com/todos");
     setLoading(false);
-
+    console.log(response);
     setTodos(response.data);
   };
 
